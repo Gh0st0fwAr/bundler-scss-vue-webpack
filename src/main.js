@@ -6,13 +6,8 @@ import VueRouter from 'vue-router';
 import App from './App';
 import routes from './routes';
 import axios from 'axios'
-// import '@fortawesome/fontawesome-free/js/fontawesome'
-// import '@fortawesome/fontawesome-free/js/solid'
-// import '@fortawesome/fontawesome-free/js/regular'
-
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-// import { faAmazon, faApplePay } from '@fortawesome/free-brands-svg-icons'
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
