@@ -1,6 +1,7 @@
 <template>
    <div class="main">
-      <menuApp></menuApp>
+      Hello world
+      <font-awesome-icon :icon="'circle'"></font-awesome-icon>
       <router-view></router-view>
    </div>
 </template>
@@ -12,7 +13,6 @@ export default {
       }
    },
    components: {
-      'menuApp': () => import('./menuApp')
    }
 }
 </script>
